@@ -47,3 +47,13 @@ node_modules/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+vscode src 
+angular.json 
+tslint.json 
+.stylelintrc.json .editorconfig
+# Cacher les outils dev
+.vscode/
+src/
+.angular/
+*.log
+*.tsbuildinfo
