@@ -40,7 +40,7 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
-
+example.spec.ts
 # Playwright
 node_modules/
 /test-results/
@@ -57,3 +57,32 @@ src/
 .angular/
 *.log
 *.tsbuildinfo
+# Node modules & builds
+node_modules/
+dist/
+out/
+build/
+tmp/
+temp/
+
+# Environnement & IDE
+.env
+.env.*
+.vscode/
+.idea/
+
+# Angular & Playwright
+.playwright/
+test-results/
+trace.zip
+*.log
+
+# OS / Système
+.DS_Store
+Thumbs.db
+
+# Logs & debug
+*.log
+*.tgz
+*.zip
+*.gz
