@@ -21,4 +21,4 @@ test("Vérifier le texte du bouton", async ({ page }) => {
   expect(buttonText).toBe("Submit");
 });
 
-// No explicit page close needed; Playwright handles it automatically.
+
